@@ -1,0 +1,238 @@
+body {
+    background-color: rgb(225, 240, 234);
+    width: 1920px;
+    height: 1080px;
+    display: flex;
+    flex-wrap: nowrap;
+   } 
+   .titulo {
+       display: flex;
+       flex-wrap: nowrap;
+       position: absolute;
+       top: 5vw;
+       left: 5vw;
+       font-size: large;
+   }
+   .allproductos {
+       display: flex;
+       position: absolute;
+       top: 15vw;
+       left: 5vw;
+       font-size: larger;
+       font-weight: bold;
+   }
+   .camisetas {
+       display: flex;
+       position: absolute;
+       top: 20vw;
+       left: 5vw;
+       font-size: larger;
+   }
+   .abrigos {
+       display: flex;
+       position: absolute;
+       top: 25vw;
+       left: 5vw;
+       font-size: larger;
+   }
+   .pantalones {
+       display: flex;
+       position: absolute;
+       top: 30vw;
+       left: 5vw;
+       font-size: larger;
+   }
+   .carrito {
+       display: flex;
+       position: absolute;
+       top: 40vw;
+       left: 5vw;
+       font-size: larger;
+       font-weight: bold;
+   }
+   .camper {
+       display: flex;
+       position: absolute;
+       top: 55vw;
+       left: 5vw;
+       font-size: larger;
+   }
+   /* Abrigos*/
+   .cuadroblanco {
+       position: absolute;
+       width: 85vw;
+       height: 55vw;
+       border-radius: 5vw;
+       border:3px solid aquamarine;
+       background-color: white;
+       top: 3vw;
+       left: 20vw;
+   }
+   /*subcuadro1*/
+   .subcuadro1 {
+      position: absolute;
+      width: 22vw;
+      height: 24vw; 
+      border-radius: 1vw;
+      border: 1px solid black;
+      background-color: aquamarine;
+      top: 4.2%;
+      left: 2vw;
+   }
+   .subcuadrito1 {
+     position: absolute;
+     width: 22vw;
+     height: 7vw; 
+     top: 17vw;
+     background-color: white;
+     border-radius: 1vw ;
+     border: 1px solid black;
+   }
+   #abrigo1 {
+       position: absolute;
+       width: 10vw;
+       height: 15vw;
+       top: 1vw;
+       left: 6vw;
+   }
+   .text-abrigo1 {
+       position: absolute;
+       top: 0.1vw;
+       left: 2vw;
+       color: rgb(89, 230, 183);
+   }
+   .cuadro-agg1 {
+       position: absolute;
+       width: 7vw;
+       height: 3vw;
+       background-color: aquamarine;
+       top: 3vw;
+       left: 12vw; 
+       text-align: center;
+   }
+   /*subcuadro2*/
+   #abrigo2 {
+       position: absolute;
+       width: 10vw;
+       height: 15vw;
+       top: 1vw;
+       left: 6vw;
+   }
+   .text-abrigo2 {
+       position: absolute;
+       top: 0.1vw;
+       left: 2vw;
+       color: rgb(89, 230, 183);
+   }
+   .cuadro-agg2 {
+       position: absolute;
+       width: 7vw;
+       height: 3vw;
+       background-color: aquamarine;
+       top: 3vw;
+       left: 12vw; 
+       text-align: center;
+   }
+   .subcuadrito2 {
+       position: absolute;
+       width: 22vw;
+       height: 7vw; 
+       top: 17vw;
+       background-color: white;
+       border-radius: 1vw ;
+       border: 1px solid black;
+   }
+.subcuadro2 {
+       position: absolute;
+       width: 22vw;
+       height: 24vw; 
+       border-radius: 1vw;
+       border: 1px solid black;
+       background-color: aquamarine;
+       top:8.5%;
+       left: 50%;
+} 
+/*Subcuadro 3*/
+#abrigo3 {
+       position: absolute;
+       width: 10vw;
+       height: 15vw;
+       top: 1vw;
+       left: 6vw;
+}
+.text-abrigo3 {
+       position: absolute;
+       top: 0.1vw;
+       left: 2vw;
+       color: rgb(89, 230, 183);
+}
+.cuadro-agg3 {
+       position: absolute;
+       width: 7vw;
+       height: 3vw;
+       background-color: aquamarine;
+       top: 3vw;
+       left: 12vw; 
+       text-align: center;
+}
+.subcuadrito3 {
+       position: absolute;
+       width: 22vw;
+       height: 7vw; 
+       top: 17vw;
+       background-color: white;
+       border-radius: 1vw ;
+       border: 1px solid black;
+}
+.subcuadro3 {
+       position: absolute;
+       width: 22vw;
+       height: 24vw; 
+       border-radius: 1vw;
+       border: 1px solid black;
+       background-color: aquamarine;
+       top:8.5%;
+       left: 80%;
+}
+/*Subcuadro 4*/
+#abrigo4 {
+ position: absolute;
+ width: 10vw;
+ height: 15vw;
+ top: 1vw;
+ left: 6vw;
+}
+.text-abrigo4 {
+    position: absolute;
+    top: 0.1vw;
+    left: 2vw;
+    color: rgb(89, 230, 183);
+}
+.cuadro-agg4 {
+    position: absolute;
+    width: 7vw;
+    height: 3vw;
+    background-color: aquamarine;
+    top: 3vw;
+    left: 12vw; 
+    text-align: center;
+}
+.subcuadrito4 {
+    position: absolute;
+    width: 22vw;
+    height: 7vw; 
+    top: 17vw;
+    background-color: white;
+    border-radius: 1vw ;
+    border: 1px solid black;
+}
+.subcuadro4 {
+ position: absolute;
+ width: 22vw;
+ height: 24vw; 
+ border-radius: 1vw;
+ border: 1px solid black;
+ background-color: aquamarine;
+ top:15%;
+ left: 10%;
+}  

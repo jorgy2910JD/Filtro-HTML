@@ -1,6 +1,81 @@
 body {
-    position: absolute;
-    background: url('./IMagenes/fondo-abstracto-textura_1258-30436.avif')0% 0% no-repeat;
-    width: 1920px;
-    height: 1080px; 
+ background-color: rgb(225, 240, 234);
+ width: 1920px;
+ height: 1080px;
+ display: flex;
+ flex-wrap: nowrap;
 } 
+.titulo {
+    position: absolute;
+    top: 5vw;
+    left: 5vw;
+    font-size: large;
+}
+.allproductos {
+    position: absolute;
+    top: 15vw;
+    left: 5vw;
+    font-size: larger;
+    font-weight: bold;
+}
+.camisetas {
+    position: absolute;
+    top: 20vw;
+    left: 5vw;
+    font-size: larger;
+}
+.abrigos {
+    position: absolute;
+    top: 25vw;
+    left: 5vw;
+    font-size: larger;
+}
+.pantalones {
+    position: absolute;
+    top: 30vw;
+    left: 5vw;
+    font-size: larger;
+}
+.carrito {
+    position: absolute;
+    top: 40vw;
+    left: 5vw;
+    font-size: larger;
+    font-weight: bold;
+}
+.camper {
+    position: absolute;
+    top: 55vw;
+    left: 5vw;
+    font-size: larger;
+}
+/* Todos los productos*/
+.cuadroblanco {
+    position: absolute;
+    width: 85vw;
+    height: 55vw;
+    border-radius: 5vw;
+    border:3px solid aquamarine;
+    background-color: white;
+    top: 3vw;
+    left: 20vw;
+}
+.subcuadro1 {
+   position: absolute;
+   width: 22vw;
+   height: 24vw; 
+   border-radius: 1vw;
+   border: 1px solid black;
+   background-color: aquamarine;
+   top: 2vw;
+   left: 2vw;
+}
+.subcuadrito1 {
+  position: absolute;
+  width: 22vw;
+  height: 7vw; 
+  top: 17vw;
+  background-color: white;
+  border-radius: 1vw ;
+  border: 1px solid black;
+}
